@@ -357,7 +357,19 @@ function Header() {
             >
               Contact Us
             </Button>
-            <Button
+            <Box sx={{display:"flex",ml:1, color: "#2C2C2C",
+                fontFamily: "Font Awesome 6 Brands",
+                fontSize: "20px",
+                fontStyle: "normal",
+                fontWeight: 400,
+                lineHeight: "normal",
+                letterSpacing: "4px",
+                textTransform: "uppercase", alignItems:"center"}}>
+            <img src={facebook} style={{width:"20px",height:"20px",marginLeft:"7px"}} />
+            <img src={instagram} style={{width:"20px",height:"20px",marginLeft:"7px"}} />
+            <img src={linkedin} style={{width:"20px",height:"20px",marginLeft:"7px"}} />
+            </Box>
+            {/* <Button
               sx={{
                 color: "#2C2C2C",
                 fontFamily: "Font Awesome 6 Brands",
@@ -398,7 +410,7 @@ function Header() {
               }}
             >
               <img src={linkedin} />
-            </Button>
+            </Button> */}
           </Box>
         </Toolbar>
       </Container>
