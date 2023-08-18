@@ -123,6 +123,26 @@ function Header() {
             </Typography>
           </Box>
 
+         
+          {/* <AdbIcon sx={{ display: { xs: "flex", md: "none" } }} /> */}
+          <Typography
+            variant="h5"
+            noWrap
+            component="a"
+            href=""
+            sx={{
+              mr: 2,
+              display: { xs: "flex", md: "none" },
+              flexGrow: 1,
+              fontFamily: "monospace",
+              fontWeight: 700,
+              letterSpacing: ".1rem",
+              color: "black",
+              textDecoration: "none",
+            }}
+          >
+            <img src="https://anima-uploads.s3.amazonaws.com/projects/64dc5cfad478f5284874eecc/releases/64dc5d72aaf56ec7b6d2ba20/img/olvera-logo-black-1-1@2x.png" />
+          </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton
               size="large"
@@ -168,25 +188,6 @@ function Header() {
               ))}
             </Menu>
           </Box>
-          <AdbIcon sx={{ display: { xs: "flex", md: "none" } }} />
-          <Typography
-            variant="h5"
-            noWrap
-            component="a"
-            href=""
-            sx={{
-              mr: 2,
-              display: { xs: "flex", md: "none" },
-              flexGrow: 1,
-              fontFamily: "monospace",
-              fontWeight: 700,
-              letterSpacing: ".1rem",
-              color: "black",
-              textDecoration: "none",
-            }}
-          >
-            <img src="https://anima-uploads.s3.amazonaws.com/projects/64dc5cfad478f5284874eecc/releases/64dc5d72aaf56ec7b6d2ba20/img/olvera-logo-black-1-1@2x.png" />
-          </Typography>
           <Box
             spacing={2}
             sx={{
